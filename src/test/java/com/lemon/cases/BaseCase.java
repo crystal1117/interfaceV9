@@ -24,7 +24,7 @@ import com.lemon.utils.SQLUtils;
 import io.qameta.allure.Step;
 
 public class BaseCase {
-    //case update
+    //case update 17
 	private Logger log = Logger.getLogger(BaseCase.class);
 	
 	/**
