@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="14.782" tests="16" errors="0" skipped="0" failures="5">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\code\java17\api_auto_v9\target\test-classes;D:\code\java17\api_auto_v9\target\classes;D:\azrj\apache-maven-3.6.1\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;D:\azrj\apache-maven-3.6.1\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;D:\azrj\apache-maven-3.6.1\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\azrj\apache-maven-3.6.1\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;D:\azrj\apache-maven-3.6.1\repository\org\testng\testng\6.11\testng-6.11.jar;D:\azrj\apache-maven-3.6.1\repository\com\beust\jcommander\1.64\jcommander-1.64.jar;D:\azrj\apache-maven-3.6.1\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;D:\azrj\apache-maven-3.6.1\repository\com\alibaba\fastjson\1.2.58\fastjson-1.2.58.jar;D:\azrj\apache-maven-3.6.1\repository\cn\afterturn\easypoi-annotation\4.0.0\easypoi-annotation-4.0.0.jar;D:\azrj\apache-maven-3.6.1\repository\cn\afterturn\easypoi-base\4.0.0\easypoi-base-4.0.0.jar;D:\azrj\apache-maven-3.6.1\repository\org\apache\poi\poi\4.0.0\poi-4.0.0.jar;D:\azrj\apache-maven-3.6.1\repository\org\apache\commons\commons-collections4\4.2\commons-collections4-4.2.jar;D:\azrj\apache-maven-3.6.1\repository\org\apache\poi\poi-ooxml\4.0.0\poi-ooxml-4.0.0.jar;D:\azrj\apache-maven-3.6.1\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;D:\azrj\apache-maven-3.6.1\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;D:\azrj\apache-maven-3.6.1\repository\org\apache\poi\poi-ooxml-schemas\4.0.0\poi-ooxml-schemas-4.0.0.jar;D:\azrj\apache-maven-3.6.1\repository\org\apache\xmlbeans\xmlbeans\3.0.1\xmlbeans-3.0.1.jar;D:\azrj\apache-maven-3.6.1\repository\com\google\guava\guava\16.0.1\guava-16.0.1.jar;D:\azrj\apache-maven-3.6.1\repository\org\apache\commons\commons-lang3\3.2.1\commons-lang3-3.2.1.jar;D:\azrj\apache-maven-3.6.1\repository\ognl\ognl\3.2.6\ognl-3.2.6.jar;D:\azrj\apache-maven-3.6.1\repository\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;D:\azrj\apache-maven-3.6.1\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;D:\azrj\apache-maven-3.6.1\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;D:\azrj\apache-maven-3.6.1\repository\org\hibernate\hibernate-validator\5.2.4.Final\hibernate-validator-5.2.4.Final.jar;D:\azrj\apache-maven-3.6.1\repository\org\jboss\logging\jboss-logging\3.2.1.Final\jboss-logging-3.2.1.Final.jar;D:\azrj\apache-maven-3.6.1\repository\com\fasterxml\classmate\1.1.0\classmate-1.1.0.jar;D:\azrj\apache-maven-3.6.1\repository\javax\el\javax.el-api\2.2.4\javax.el-api-2.2.4.jar;D:\azrj\apache-maven-3.6.1\repository\mysql\mysql-connector-java\5.1.38\mysql-connector-java-5.1.38.jar;D:\azrj\apache-maven-3.6.1\repository\commons-dbutils\commons-dbutils\1.6\commons-dbutils-1.6.jar;D:\azrj\apache-maven-3.6.1\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\azrj\apache-maven-3.6.1\repository\io\qameta\allure\allure-testng\2.6.0\allure-testng-2.6.0.jar;D:\azrj\apache-maven-3.6.1\repository\io\qameta\allure\allure-descriptions-javadoc\2.6.0\allure-descriptions-javadoc-2.6.0.jar;D:\azrj\apache-maven-3.6.1\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;D:\azrj\apache-maven-3.6.1\repository\io\qameta\allure\allure-java-commons\2.6.0\allure-java-commons-2.6.0.jar;D:\azrj\apache-maven-3.6.1\repository\io\qameta\allure\allure2-model-api\1.0-BETA6\allure2-model-api-1.0-BETA6.jar;D:\azrj\apache-maven-3.6.1\repository\io\qameta\allure\allure2-model-pojo\1.0-BETA6\allure2-model-pojo-1.0-BETA6.jar;D:\azrj\apache-maven-3.6.1\repository\org\apache\tika\tika-core\1.14\tika-core-1.14.jar;D:\azrj\apache-maven-3.6.1\repository\io\qameta\allure\allure2-model-jackson\1.0-BETA6\allure2-model-jackson-1.0-BETA6.jar;D:\azrj\apache-maven-3.6.1\repository\com\fasterxml\jackson\core\jackson-databind\2.7.0\jackson-databind-2.7.0.jar;D:\azrj\apache-maven-3.6.1\repository\com\fasterxml\jackson\core\jackson-annotations\2.7.0\jackson-annotations-2.7.0.jar;D:\azrj\apache-maven-3.6.1\repository\com\fasterxml\jackson\core\jackson-core\2.7.0\jackson-core-2.7.0.jar;D:\azrj\apache-maven-3.6.1\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.7.0\jackson-module-jaxb-annotations-2.7.0.jar;D:\azrj\apache-maven-3.6.1\repository\org\aspectj\aspectjrt\1.8.10\aspectjrt-1.8.10.jar;D:\azrj\apache-maven-3.6.1\repository\org\jooq\joor\0.9.6\joor-0.9.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="D:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\muji\AppData\Local\Temp\surefire2849942099332732145\surefirebooter1776362627669731405.jar C:\Users\muji\AppData\Local\Temp\surefire2849942099332732145 2020-04-16T20-49-07_716-jvmRun1 surefire4143805130315927928tmp surefire_01182844340876064061tmp"/>
+    <property name="surefire.test.class.path" value="D:\code\java17\api_auto_v9\target\test-classes;D:\code\java17\api_auto_v9\target\classes;D:\azrj\apache-maven-3.6.1\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;D:\azrj\apache-maven-3.6.1\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;D:\azrj\apache-maven-3.6.1\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\azrj\apache-maven-3.6.1\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;D:\azrj\apache-maven-3.6.1\repository\org\testng\testng\6.11\testng-6.11.jar;D:\azrj\apache-maven-3.6.1\repository\com\beust\jcommander\1.64\jcommander-1.64.jar;D:\azrj\apache-maven-3.6.1\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;D:\azrj\apache-maven-3.6.1\repository\com\alibaba\fastjson\1.2.58\fastjson-1.2.58.jar;D:\azrj\apache-maven-3.6.1\repository\cn\afterturn\easypoi-annotation\4.0.0\easypoi-annotation-4.0.0.jar;D:\azrj\apache-maven-3.6.1\repository\cn\afterturn\easypoi-base\4.0.0\easypoi-base-4.0.0.jar;D:\azrj\apache-maven-3.6.1\repository\org\apache\poi\poi\4.0.0\poi-4.0.0.jar;D:\azrj\apache-maven-3.6.1\repository\org\apache\commons\commons-collections4\4.2\commons-collections4-4.2.jar;D:\azrj\apache-maven-3.6.1\repository\org\apache\poi\poi-ooxml\4.0.0\poi-ooxml-4.0.0.jar;D:\azrj\apache-maven-3.6.1\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;D:\azrj\apache-maven-3.6.1\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;D:\azrj\apache-maven-3.6.1\repository\org\apache\poi\poi-ooxml-schemas\4.0.0\poi-ooxml-schemas-4.0.0.jar;D:\azrj\apache-maven-3.6.1\repository\org\apache\xmlbeans\xmlbeans\3.0.1\xmlbeans-3.0.1.jar;D:\azrj\apache-maven-3.6.1\repository\com\google\guava\guava\16.0.1\guava-16.0.1.jar;D:\azrj\apache-maven-3.6.1\repository\org\apache\commons\commons-lang3\3.2.1\commons-lang3-3.2.1.jar;D:\azrj\apache-maven-3.6.1\repository\ognl\ognl\3.2.6\ognl-3.2.6.jar;D:\azrj\apache-maven-3.6.1\repository\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;D:\azrj\apache-maven-3.6.1\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;D:\azrj\apache-maven-3.6.1\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;D:\azrj\apache-maven-3.6.1\repository\org\hibernate\hibernate-validator\5.2.4.Final\hibernate-validator-5.2.4.Final.jar;D:\azrj\apache-maven-3.6.1\repository\org\jboss\logging\jboss-logging\3.2.1.Final\jboss-logging-3.2.1.Final.jar;D:\azrj\apache-maven-3.6.1\repository\com\fasterxml\classmate\1.1.0\classmate-1.1.0.jar;D:\azrj\apache-maven-3.6.1\repository\javax\el\javax.el-api\2.2.4\javax.el-api-2.2.4.jar;D:\azrj\apache-maven-3.6.1\repository\mysql\mysql-connector-java\5.1.38\mysql-connector-java-5.1.38.jar;D:\azrj\apache-maven-3.6.1\repository\commons-dbutils\commons-dbutils\1.6\commons-dbutils-1.6.jar;D:\azrj\apache-maven-3.6.1\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\azrj\apache-maven-3.6.1\repository\io\qameta\allure\allure-testng\2.6.0\allure-testng-2.6.0.jar;D:\azrj\apache-maven-3.6.1\repository\io\qameta\allure\allure-descriptions-javadoc\2.6.0\allure-descriptions-javadoc-2.6.0.jar;D:\azrj\apache-maven-3.6.1\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;D:\azrj\apache-maven-3.6.1\repository\io\qameta\allure\allure-java-commons\2.6.0\allure-java-commons-2.6.0.jar;D:\azrj\apache-maven-3.6.1\repository\io\qameta\allure\allure2-model-api\1.0-BETA6\allure2-model-api-1.0-BETA6.jar;D:\azrj\apache-maven-3.6.1\repository\io\qameta\allure\allure2-model-pojo\1.0-BETA6\allure2-model-pojo-1.0-BETA6.jar;D:\azrj\apache-maven-3.6.1\repository\org\apache\tika\tika-core\1.14\tika-core-1.14.jar;D:\azrj\apache-maven-3.6.1\repository\io\qameta\allure\allure2-model-jackson\1.0-BETA6\allure2-model-jackson-1.0-BETA6.jar;D:\azrj\apache-maven-3.6.1\repository\com\fasterxml\jackson\core\jackson-databind\2.7.0\jackson-databind-2.7.0.jar;D:\azrj\apache-maven-3.6.1\repository\com\fasterxml\jackson\core\jackson-annotations\2.7.0\jackson-annotations-2.7.0.jar;D:\azrj\apache-maven-3.6.1\repository\com\fasterxml\jackson\core\jackson-core\2.7.0\jackson-core-2.7.0.jar;D:\azrj\apache-maven-3.6.1\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.7.0\jackson-module-jaxb-annotations-2.7.0.jar;D:\azrj\apache-maven-3.6.1\repository\org\aspectj\aspectjrt\1.8.10\aspectjrt-1.8.10.jar;D:\azrj\apache-maven-3.6.1\repository\org\jooq\joor\0.9.6\joor-0.9.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="allure.results.directory" value="D:\code\java17\api_auto_v9\target/allure-results"/>
+    <property name="user.home" value="C:\Users\muji"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="D:\Program Files\Java\jdk1.8.0_161\jre"/>
+    <property name="basedir" value="D:\code\java17\api_auto_v9"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\muji\AppData\Local\Temp\surefire2849942099332732145\surefirebooter1776362627669731405.jar;D:\azrj\apache-maven-3.6.1\repository/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2.jar"/>
+    <property name="sun.boot.class.path" value="D:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;D:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;D:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;D:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;D:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;D:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;D:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;D:\Program Files\Java\jdk1.8.0_161\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="user.name" value="muji"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.1"/>
+    <property name="java.endorsed.dirs" value="D:\Program Files\Java\jdk1.8.0_161\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\azrj\apache-maven-3.6.1\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\muji\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="user.dir" value="D:\code\java17\api_auto_v9"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.library.path" value="D:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Program Files/Java/jdk1.8.0_161/bin/../jre/bin/server;D:/Program Files/Java/jdk1.8.0_161/bin/../jre/bin;D:/Program Files/Java/jdk1.8.0_161/bin/../jre/lib/amd64;D:\azrj\android-sdk-windows-appium\platform-tools;D:\azrj\android-sdk-windows-appium\tools;D:\Program Files\Java\jdk1.8.0_161\bin;D:\azrj\groovy-3.0.1\bin;D:\azrj\apache-maven-3.6.1\bin;C:\python37\Scripts\;C:\python37\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;D:\azrj\mysql-5.6.17-winx64\bin;C:\Program Files\Git\cmd;D:\azrj\VisualSVN Server\bin;C:\python37\Scripts\;C:\python37\;d:\Programs\Microsoft VS Code\bin;D:\Program Files (x86)\Jenkins\jre\bin;D:\Program Files\allure-2.10.0\bin;D:\Program Files\fiddler;D:\Program Files\adt-bundle-windows-x86_64-20140702\sdk\platform-tools;D:\Program Files\adt-bundle-windows-x86_64-20140702\sdk\tools;D:\azrj\fiddler;C:\Program Files\Bandizip\;D:\azrj\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="java.ext.dirs" value="D:\Program Files\Java\jdk1.8.0_161\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="test" classname="com.lemon.cases.RegisterCase" time="2.673"/>
+  <testcase name="test" classname="com.lemon.cases.RegisterCase" time="0.113"/>
+  <testcase name="test" classname="com.lemon.cases.RegisterCase" time="0.117"/>
+  <testcase name="test" classname="com.lemon.cases.RegisterCase" time="0.157"/>
+  <testcase name="test" classname="com.lemon.cases.RegisterCase" time="1.482">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at com.lemon.cases.RegisterCase.test(RegisterCase.java:70)
+</failure>
+    <system-out><![CDATA[[INFO] 2020-04-16 20:49:21 method: com.lemon.utils.HttpUtils.printResponseAndReturnBody(HttpUtils.java:201)----响应头：[Server: nginx/1.4.2, Date: Thu, 16 Apr 2020 12:49:20 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+[INFO] 2020-04-16 20:49:21 method: com.lemon.utils.HttpUtils.printResponseAndReturnBody(HttpUtils.java:204)----响应体：{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+[INFO] 2020-04-16 20:49:21 method: com.lemon.utils.HttpUtils.printResponseAndReturnBody(HttpUtils.java:206)----状态码：200
+断言响应结果:断言成功
+数据库断言：false
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="com.lemon.cases.RegisterCase" time="0.132"/>
+  <testcase name="test" classname="com.lemon.cases.LoginCase" time="0.423">
+    <failure message="expected [断言成功] but found [期望值：&quot;msg&quot;:&quot;手机号码为空&quot;不在响应体内。]" type="java.lang.AssertionError">java.lang.AssertionError: expected [断言成功] but found [期望值："msg":"手机号码为空"不在响应体内。]
+	at com.lemon.cases.LoginCase.test(LoginCase.java:59)
+</failure>
+    <system-out><![CDATA[[INFO] 2020-04-16 20:49:21 method: com.lemon.utils.HttpUtils.printResponseAndReturnBody(HttpUtils.java:201)----响应头：[Server: nginx/1.4.2, Date: Thu, 16 Apr 2020 12:49:21 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+[INFO] 2020-04-16 20:49:21 method: com.lemon.utils.HttpUtils.printResponseAndReturnBody(HttpUtils.java:204)----响应体：{"code":2,"msg":"密码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+[INFO] 2020-04-16 20:49:21 method: com.lemon.utils.HttpUtils.printResponseAndReturnBody(HttpUtils.java:206)----状态码：200
+期望值："msg":"手机号码为空"不在响应体内。
+断言响应结果:期望值："msg":"手机号码为空"不在响应体内。
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="com.lemon.cases.LoginCase" time="0.121"/>
+  <testcase name="test" classname="com.lemon.cases.LoginCase" time="0.249">
+    <failure message="expected [断言成功] but found [期望值：&quot;code&quot;:0不在响应体内。]" type="java.lang.AssertionError">java.lang.AssertionError: expected [断言成功] but found [期望值："code":0不在响应体内。]
+	at com.lemon.cases.LoginCase.test(LoginCase.java:59)
+</failure>
+    <system-out><![CDATA[[INFO] 2020-04-16 20:49:22 method: com.lemon.utils.HttpUtils.printResponseAndReturnBody(HttpUtils.java:201)----响应头：[Server: nginx/1.4.2, Date: Thu, 16 Apr 2020 12:49:22 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+[INFO] 2020-04-16 20:49:22 method: com.lemon.utils.HttpUtils.printResponseAndReturnBody(HttpUtils.java:204)----响应体：{"code":1001,"msg":"账号信息错误","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+[INFO] 2020-04-16 20:49:22 method: com.lemon.utils.HttpUtils.printResponseAndReturnBody(HttpUtils.java:206)----状态码：200
+期望值："code":0不在响应体内。
+断言响应结果:期望值："code":0不在响应体内。
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="com.lemon.cases.LoginCase" time="0.269">
+    <failure message="expected [断言成功] but found [期望值：&quot;code&quot;:0不在响应体内。]" type="java.lang.AssertionError">java.lang.AssertionError: expected [断言成功] but found [期望值："code":0不在响应体内。]
+	at com.lemon.cases.LoginCase.test(LoginCase.java:59)
+</failure>
+    <system-out><![CDATA[[INFO] 2020-04-16 20:49:22 method: com.lemon.utils.HttpUtils.printResponseAndReturnBody(HttpUtils.java:201)----响应头：[Server: nginx/1.4.2, Date: Thu, 16 Apr 2020 12:49:22 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+[INFO] 2020-04-16 20:49:22 method: com.lemon.utils.HttpUtils.printResponseAndReturnBody(HttpUtils.java:204)----响应体：{"code":1001,"msg":"账号信息错误","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+[INFO] 2020-04-16 20:49:22 method: com.lemon.utils.HttpUtils.printResponseAndReturnBody(HttpUtils.java:206)----状态码：200
+期望值："code":0不在响应体内。
+断言响应结果:期望值："code":0不在响应体内。
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="com.lemon.cases.LoginCase" time="0.295"/>
+  <testcase name="test" classname="com.lemon.cases.RechargeCase" time="0.158"/>
+  <testcase name="test" classname="com.lemon.cases.RechargeCase" time="0.098"/>
+  <testcase name="test" classname="com.lemon.cases.RechargeCase" time="0.108"/>
+  <testcase name="test" classname="com.lemon.cases.RechargeCase" time="0.1"/>
+  <testcase name="test" classname="com.lemon.cases.RechargeCase" time="0.624">
+    <failure message="expected [断言成功] but found [期望值：{&quot;code&quot;:0,&quot;msg&quot;:&quot;OK&quot;,&quot;data&quot;:{&quot;id&quot;:631,&quot;leave_amount&quot;:56750.0,&quot;mobile_phone&quot;:&quot;18900000000&quot;,&quot;reg_name&quot;:&quot;hehe&quot;,&quot;reg_time&quot;:&quot;2019-10-20 21:46:06.0&quot;,&quot;type&quot;:1},&quot;copyright&quot;:&quot;Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved&quot;}不在响应体内。]" type="java.lang.AssertionError">java.lang.AssertionError: expected [断言成功] but found [期望值：{"code":0,"msg":"OK","data":{"id":631,"leave_amount":56750.0,"mobile_phone":"18900000000","reg_name":"hehe","reg_time":"2019-10-20 21:46:06.0","type":1},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}不在响应体内。]
+	at com.lemon.cases.RechargeCase.test(RechargeCase.java:66)
+</failure>
+    <system-out><![CDATA[{${amount}=6300.99, ${token}=eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjgwMzM4ODgsImV4cCI6MTU4NzA0MTY2Mn0.RmWaEPc7fJZSByRKqRhd6obxQwbFlfUBWPQLw5ZahiNXE8moO83Wqa70OKDUgpoVGHDNaUcv5Jk7nYmRk1GGRA, ${member_id}=8033888, ${login_mobilephone}=13222222112, ${register_mobilephone}=13222222112, ${register_password}=12345678, ${login_password}=12345678}
+[INFO] 2020-04-16 20:49:23 method: com.lemon.utils.HttpUtils.printResponseAndReturnBody(HttpUtils.java:201)----响应头：[Server: nginx/1.4.2, Date: Thu, 16 Apr 2020 12:49:23 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+[INFO] 2020-04-16 20:49:23 method: com.lemon.utils.HttpUtils.printResponseAndReturnBody(HttpUtils.java:204)----响应体：{"code":0,"msg":"OK","data":{"id":8033888,"leave_amount":1031505.95,"mobile_phone":"13222222112","reg_name":"小柠檬","reg_time":"2020-04-14 21:44:42.0","type":1},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+[INFO] 2020-04-16 20:49:23 method: com.lemon.utils.HttpUtils.printResponseAndReturnBody(HttpUtils.java:206)----状态码：200
+期望值：{"code":0,"msg":"OK","data":{"id":631,"leave_amount":56750.0,"mobile_phone":"18900000000","reg_name":"hehe","reg_time":"2019-10-20 21:46:06.0","type":1},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}不在响应体内。
+断言响应结果:期望值：{"code":0,"msg":"OK","data":{"id":631,"leave_amount":56750.0,"mobile_phone":"18900000000","reg_name":"hehe","reg_time":"2019-10-20 21:46:06.0","type":1},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}不在响应体内。
+6300.99
+6300.99
+数据库断言：true
+]]></system-out>
+  </testcase>
+</testsuite>

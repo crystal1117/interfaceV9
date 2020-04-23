@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [xxx项目]">
+  <test name="用户模块(failed)">
+    <classes>
+      <class name="com.lemon.cases.RechargeCase">
+        <methods>
+          <include name="finish"/>
+          <include name="init"/>
+          <include name="test" invocation-numbers="4"/>
+        </methods>
+      </class> <!-- com.lemon.cases.RechargeCase -->
+      <class name="com.lemon.cases.RegisterCase">
+        <methods>
+          <include name="test" invocation-numbers="4"/>
+          <include name="finish"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.lemon.cases.RegisterCase -->
+      <class name="com.lemon.cases.LoginCase">
+        <methods>
+          <include name="test" invocation-numbers="0 2 3"/>
+          <include name="finish"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.lemon.cases.LoginCase -->
+    </classes>
+  </test> <!-- 用户模块(failed) -->
+</suite> <!-- Failed suite [xxx项目] -->
